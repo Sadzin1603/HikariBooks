@@ -14,12 +14,21 @@ header{
     justify-content: space-around;
     background-color: var(--header-bg);
 }
+img{
+    height: 8rem;
+}
 ul{
     display: flex;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
     gap: 2rem;
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
 }
 .log{
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
