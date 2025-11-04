@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: "Quantico", sans-serif;
     color: var(--text-color);
-    font-size: 115%;
 }
 
 :root {
@@ -21,7 +20,7 @@
 }
 
 header {
-    height: 8rem;
+    height: 5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -63,7 +62,6 @@ header button {
     filter: brightness(0.4);
 }
 .carousel-item p{
-    font-size: 60%;
     color: white;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
