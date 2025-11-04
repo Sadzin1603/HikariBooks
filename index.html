@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HikariBooks</title>
-    <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header>
         <img src="imgs/logo.png" alt="Logo">
@@ -15,16 +19,83 @@
             <li>Sobre</li>
             <li>Mangas</li>
             <li>Contato</li>
-            <li>Calcular frete</li>
+            <li>Plano Mensal</li>
         </ul>
         <div class="log">
-            <i class="bi bi-cart" style="font-size: 1.8rem;"></i>
-            <button>Login</button>
-            <button>Registro</button>
+            <a href="">
+                <i class="bi bi-cart" style="font-size: 1.8rem;"></i>
+            </a>
+            <button>Logar</button>
+            <button>Cadastre-se</button>
         </div>
     </header>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/backgrounds/berserk.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption custom-caption">
+                    <img src="imgs/logos/berserk.png" alt="">
+                    <p>
+                        Berserk é uma história sobre Guts, um mercenário solitário em um mundo medieval sombrio e
+                        brutal, repleto de monstros e guerras. Sua vida muda completamente após se juntar ao Bando do
+                        Falcão, um grupo mercenário liderado pelo ambicioso Griffith. Um evento terrível marca Guts com
+                        um estigma que o faz ser constantemente perseguido por demônios. A partir daí, ele embarca em
+                        uma jornada de vingança e redenção, lutando contra criaturas demoníacas e enfrentando seus
+                        próprios traumas, enquanto busca sobreviver em um mundo que o oprime.
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg">Ver mais sobre</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/backgrounds/bnh.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption custom-caption">
+                    <img src="imgs/logos/bnh.png" alt="">
+                    <p>
+                        My Hero Academia é sobre Izuku Midoriya, um garoto que nasce sem superpoderes
+                        ("individualidades") em um mundo onde quase todos os têm, mas que sonha em ser um super-herói
+                        como seu ídolo, All Might. Após um encontro com o herói número 1, ele recebe a individualidade
+                        "One for All" e se matricula na Academia U.A. para treinar e se tornar um herói profissional,
+                        aprendendo que a vida de um herói é mais complicada do que ele imaginava.
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg">Ver mais sobre</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/backgrounds/haikyu.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption custom-caption">
+                    <img src="imgs/logos/Haikyu.png" alt="" id="logo">
+                    <p>
+                        A sinopse de Haikyuu!! gira em torno de Shoyo Hinata, um garoto baixo que se apaixona por vôlei
+                        após ver um jogo do "Pequeno Gigante" e sonha em se tornar um grande jogador. Após ser derrotado
+                        no ensino fundamental por Tobio Kageyama, seu rival prodígio conhecido como "Rei da Quadra",
+                        Hinata se une ao clube de vôlei do Colégio Karasuno. A trama foca no crescimento de Hinata e no
+                        time, que precisa superar desafios e aprender a trabalhar em equipe, especialmente ao ter
+                        Kageyama como seu colega de time, mesmo com suas personalidades opostas.
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg">Ver mais sobre</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

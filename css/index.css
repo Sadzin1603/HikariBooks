@@ -1,12 +1,26 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Quantico&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+    color: var(--text-color);
+    font-size: 115%;
 }
-:root{
-    --header-bg: aliceblue;
+
+:root {
+    --header-bg: #E94B3C;
+    --page-bg: #FFF9F4;
+    --text-color: #2C2C2C;
+    --buton-bg: #BFB1A8;
 }
-header{
+
+.body {
+    background-color: var(--page-bg);
+}
+
+header {
     height: 8rem;
     width: 100%;
     display: flex;
@@ -14,10 +28,13 @@ header{
     justify-content: space-around;
     background-color: var(--header-bg);
 }
-img{
-    height: 8rem;
+
+header>img {
+    height: 100%;
+    padding: 0.5rem;
 }
-ul{
+
+header>ul {
     display: flex;
     margin-bottom: 0 !important;
     padding-left: 0 !important;
@@ -26,9 +43,44 @@ ul{
     align-items: center;
     justify-content: center;
 }
-.log{
+
+.log {
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+header button {
+    background-color: var(--buton-bg);
+    border-radius: 2rem !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: .5rem 1rem;
+    border: none;
+}
+
+.carousel-item> img {
+    filter: brightness(0.4);
+}
+.carousel-item p{
+    font-size: 60%;
+    color: white;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    scale: 150%;
+}
+#logo{
+    width: 30rem;
+}
+.custom-caption{
+    text-align: left;
+    position: absolute;
+    left: 5rem;
+    top:25%;
+    width: 30%;
+    height: 50%;
+    
+}
+.custom-caption p{
+    text-overflow: ellipsis;
 }
